@@ -1,0 +1,19 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #fcfbf7;
+	font-family: arial;
+	color: #262626;
+}
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #D4916A;
+    padding: 5px;
+}
+
+section {
+    border-top: 2px solid #D4916A;
+    margin-top: 20px;
+}
