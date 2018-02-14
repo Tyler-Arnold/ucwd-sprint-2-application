@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Home | GuitarHub</title>
+<style>
+body{
+	background-color: Bisque;
+	background-image: url("https://cdn.pixabay.com/photo/2018/01/22/19/17/guitar-3099753_960_720.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+h1{
+	color: DarkRed;
+	text-align: center;
+	font-family: "Georgia", Times, serif;
+	font-size: 40px;
+}
+h2.info{
+	color: Chocolate;
+	font-family: "Georgia", Times, serif;
+	font-size: 35px;
+}
+p{
+	margin-right: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+p.intro{
+	margin-right: 200px;
+	font-family: "Verdana", sans-serif;
+	font-size: 22px;
+	font-style: italic;
+}
+article.information{
+	border: dashed #D4916A;
+	margin-right: 250px;
+}
+	
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: Peru;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	</style>
+		
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="activities.html">Club Activities</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Information</a>
+                <div class="dropdown-content">
+                    <a href="guitars.html">Guitars</a>
+                    <a href="accessories.html">Accessories</a>
+                    <a href="lessons.html">Lessons</a>
+                    <a href="brands.html">Brands</a>
+                    <a href="artists.html">Artists</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <article>
+        <header>
+            <h1>GuitarHub</h1>
+            <p class="intro">
+                Welcome to the GuitarHub homepage, your resource for anything with strings.
+            </p>
+        </header>
+	</article>
+    
+	<article class="information">   
+		<header>
+            <h2 class="info">Who are we?</h2>
+        </header>
+        <p>
+            GuitarHub, and our Dorset-based GuitarClub, is an organisation that's dedicated to creating resources to inspire and assist the next generation of guitar players.
+        </p>
+
+        <p>
+            Our local club, GuitarClub, brings together Dorset's guitar enthusiasts via a multitude of events. We help bring guitar players to local bands, endorse guitar teachers, and sponsor events and gigs for our local community.
+			
+        </p>
+	</article>
+
+    <aside style= "margin-right: 250px;">
+        <header>
+            <h2>Advert</h2>
+        </header>
+        <h3>Company Co. - Nobody businesses like us!</h3>
+        <p style= "font-size: 15px;">
+            Here at Company Co. we work tirelessly to create the integrated business solutions that you need. Whether you're looking to synergise your workflow or improve cashflow efficiency, we've got you covered.
+        </p>
+    </aside>
+</body>
+
+</html>
