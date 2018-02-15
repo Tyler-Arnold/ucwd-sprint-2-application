@@ -1,0 +1,95 @@
+body{
+	background-color: Bisque;
+	background-image: url("https://cdn.pixabay.com/photo/2018/01/22/19/17/guitar-3099753_960_720.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+h1{
+	color: DarkRed;
+	text-align: center;
+	font-family: "Georgia", Times, serif;
+	font-size: 40px;
+}
+
+h2.info{
+	color: Chocolate;
+	font-family: "Georgia", Times, serif;
+	font-size: 35px;
+}
+
+p{
+	margin-right: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+p.intro{
+	margin-right: 200px;
+	font-family: "Verdana", sans-serif;
+	font-size: 22px;
+	font-style: italic;
+}
+
+article.information{
+	border: dashed #D4916A;
+	margin-right: 250px;
+}
+
+article.advertisment{
+	margin-right: 250px;
+}
+
+p.ad{
+	font-size: 15px;
+}
+	
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: Peru;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
