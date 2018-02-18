@@ -23,8 +23,12 @@ article, aside {
     margin: 20px 5%;
     border: 2px solid #D4916A;
     padding: 5px;
-    background-color: #fcecd9;
+    background-color: rgba(252, 236, 217, 0.85);
     width: 90%;
+}
+
+aside {
+	background-color: hsla(33, 85%, 92%, 0.5);
 }
 
 section {
@@ -39,7 +43,7 @@ h1{
 }
 
 h2{
-	color: Chocolate;
+	color: rgb(210,105,30);
 	font-size: 35px;
 }
 
