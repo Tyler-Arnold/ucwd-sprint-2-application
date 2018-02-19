@@ -9,6 +9,7 @@ html {
 	background-color: #fcfbf7;
 	font-family: arial;
 	color: #262626;
+	text-align:center;
 }
 
 body{
@@ -40,6 +41,7 @@ aside {
 section {
     border-top: 2px solid #D4916A;
     margin-top: 20px;
+	
 }
 
 h1{
@@ -56,6 +58,7 @@ h2{
 p{
 	margin-right: 200px;
 	font-size: 20px;
+	
 }
 
 aside{
