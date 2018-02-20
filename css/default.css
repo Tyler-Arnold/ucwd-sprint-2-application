@@ -21,7 +21,7 @@ body{
 
 article, aside {
     margin: 20px 5%;
-    border: 2px solid #D4916A;
+    border: 2px solid hsla(22, 55%, 62%, 1);
     padding: 5px 5%;
     background-color: rgba(252, 236, 217, 0.85);
     width: 80%;
@@ -50,12 +50,12 @@ h1{
 
 h2{
 	color: rgb(210,105,30);
-	font-size: 35px;
+	font-size: 2.2em;
 }
 
 p{
 	margin-right: 200px;
-	font-size: 20px;
+	font-size: 125%;
 }
 
 aside{
@@ -63,7 +63,7 @@ aside{
 }
 
 aside p{
-	font-size: 15px;
+	font-size: 100%;
 }
 
 footer{
@@ -116,20 +116,20 @@ input {
     padding: 5px 10px;
     margin: 5px 0;
     box-sizing: border-box;
-    border: 1.5px solid #555555;
+    border: 1.5px solid hsla(0, 0%, 33%, 1);
     -webkit-transition: 0.4s;
     transition: 0.3s;
     outline: none;
 }
 
 input[type=password]:focus, input[type=email]:focus {
-    background-color: #edece8;
+    background-color: rgba(237, 236, 232, 1);
 }
 
 .lessons:link, .lessons:visited {
     background-color: white;
     color: black;
-    border: 1.5px solid #ef9d62;
+    border: 1.5px solid rgba(239, 157, 98, 0.9);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -137,7 +137,7 @@ input[type=password]:focus, input[type=email]:focus {
 }
 
 .lessons:hover, .lessons:active {
-    background-color: #ef9d62;
+    background-color: hsla(25, 82%, 66%, 0.8);
     color: white;
 }
 
