@@ -132,13 +132,13 @@ button{
     display: inline-block;
     font-size: 16px;
 }
-button: hover{
+button:hover{
     background-color: #20B2AA;
-    box-sizing: border-box;
-    border: 1.5px solid #555555;
-    -webkit-transition: 0.4s;
-    transition: 0.3s;
-    outline: none;
+    color: #F5FFFA;
+}
+button:active{
+    background-color: #008080;
+    color: #FFFAFA;
 }
 input[type=password]:focus, input[type=email]:focus {
     background-color: #edece8;
