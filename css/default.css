@@ -122,6 +122,24 @@ input {
     outline: none;
 }
 
+button{
+    background-color: #A52A2A; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button: hover{
+    background-color: #20B2AA;
+    box-sizing: border-box;
+    border: 1.5px solid #555555;
+    -webkit-transition: 0.4s;
+    transition: 0.3s;
+    outline: none;
+}
 input[type=password]:focus, input[type=email]:focus {
     background-color: #edece8;
 }
