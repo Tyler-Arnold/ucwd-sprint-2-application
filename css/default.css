@@ -84,3 +84,28 @@ a:hover {
 a:active {
     color: green;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1.5px solid #696969;
+    
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #FFDEAD;}
+tr:nth-child(odd){background-color: #D2B48C;}
+tr:hover {
+    color: #F0FFF0;
+    background-color: #2F4F4F;
+    border-bottom-color: #2F4F4F}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #BC8F8F;
+    color: white;
+}
