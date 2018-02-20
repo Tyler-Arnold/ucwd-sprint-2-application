@@ -72,7 +72,7 @@ footer{
     padding: 5px;
     padding-left: 5%;
 }
-input[type=info]{
+input[type=password], input[type=email]{
 	width: 30%;
     padding: 5px 10px;
     margin: 5px 0;
@@ -83,7 +83,7 @@ input[type=info]{
     outline: none;
 }
 
-input[type=info]:focus {
+input[type=password]:focus, input[type=email]:focus {
     background-color: #edece8;
 }
 
