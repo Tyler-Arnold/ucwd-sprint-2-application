@@ -72,8 +72,23 @@ footer{
     padding: 5px;
     padding-left: 5%;
 }
-input[type=password], input[type=email]{
-	width: 30%;
+
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+
+input {
+    width: 30%;
     padding: 5px 10px;
     margin: 5px 0;
     box-sizing: border-box;
@@ -87,7 +102,7 @@ input[type=password]:focus, input[type=email]:focus {
     background-color: #edece8;
 }
 
-a.lessons:link, a.lessons:visited {
+.lessons:link, .lessons:visited {
     background-color: white;
     color: black;
     border: 1.5px solid #ef9d62;
@@ -97,7 +112,7 @@ a.lessons:link, a.lessons:visited {
     display: inline-block;
 }
 
-a.lessons:hover, a.lessons:active {
+.lessons:hover, .lessons:active {
 	
     background-color: #ef9d62;
     color: white;
