@@ -22,9 +22,9 @@ body{
 article, aside {
     margin: 20px 5%;
     border: 2px solid #D4916A;
-    padding: 5px;
+    padding: 5px 5%;
     background-color: rgba(252, 236, 217, 0.85);
-    width: 90%;
+    width: 80%;
 }
 
 article, aside, nav, footer {
