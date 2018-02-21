@@ -1,0 +1,19 @@
+html, body {
+    height: auto;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbf7;
+    font-family: arial;
+    color: #262626;
+}
+
+body {
+    background-color: #FFE4C4;
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/22/19/17/guitar-3099753_960_720.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
