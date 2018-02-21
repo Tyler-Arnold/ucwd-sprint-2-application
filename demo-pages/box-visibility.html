@@ -6,10 +6,13 @@
 		h1, p.visible{
 			visibility: visible;
 		}
-		p.paragraph, h2{
+		p.paragraph{
 			visibility: hidden;
 		}
 		
+		.display-none{
+			 display: none;
+		}
 	</style>
 </head>
 
@@ -17,12 +20,12 @@
     <header>
         <h1>Box Visibility Example</h1>
         <p class="paragraph">
-            This paragraph is not visible.
+            This paragraph is not visible, but still takes up space
         </p>
     </header>
 	
-    <header>
-        <h2>This header is hidden.</h2>
+    <header class="display-none">
+        <h2>This header is not displayed and does not impact other elements.</h2>
     </header>
     <p class="visible">
         This paragraph is visible.
