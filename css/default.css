@@ -122,6 +122,24 @@ input {
     outline: none;
 }
 
+button{
+    background-color: #A52A2A; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #20B2AA;
+    color: #F5FFFA;
+}
+button:active{
+    background-color: #008080;
+    color: #FFFAFA;
+}
 input[type=password]:focus, input[type=email]:focus {
     background-color: rgba(237, 236, 232, 1);
 }
