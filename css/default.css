@@ -23,6 +23,7 @@ article, aside {
     margin: 20px 5%;
     border: 2px solid hsla(22, 55%, 62%, 1);
     padding: 5px 5%;
+    background-color: #FCEBD6;
     background-color: rgba(252, 236, 217, 0.85);
     width: 80%;
 }
@@ -93,7 +94,7 @@ table {
 
 td, th {
     border: 1.5px solid #696969;
-    
+
     padding: 8px;
 }
 
@@ -122,6 +123,24 @@ input {
     outline: none;
 }
 
+button{
+    background-color: #A52A2A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #20B2AA;
+    color: #F5FFFA;
+}
+button:active{
+    background-color: #008080;
+    color: #FFFAFA;
+}
 input[type=password]:focus, input[type=email]:focus {
     background-color: rgba(237, 236, 232, 1);
 }
