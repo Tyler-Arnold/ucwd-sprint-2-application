@@ -23,6 +23,7 @@ article, aside {
     margin: 20px 5%;
     border: 2px solid hsla(22, 55%, 62%, 1);
     padding: 5px 5%;
+    background-color: #FCEBD6;
     background-color: rgba(252, 236, 217, 0.85);
     width: 80%;
 }
@@ -93,7 +94,7 @@ table {
 
 td, th {
     border: 1.5px solid #696969;
-    
+
     padding: 8px;
 }
 
@@ -123,7 +124,7 @@ input {
 }
 
 button{
-    background-color: #A52A2A; 
+    background-color: #A52A2A;
     border: none;
     color: white;
     padding: 15px 32px;
