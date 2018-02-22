@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <title>Positioning</title>
+	<style>
+	h1{
+		position: static;
+		left: 40px;
+		border: 3px solid red;
+	}
+	div.test1{
+		position: relative;
+		height: 200px;
+		width: 300px;
+		border: 3px solid blue;
+	}
+	div.test2{
+		position: fixed;
+		left: 50px;
+	}
+	div.test3{
+		position: absolute;
+		top: 100px;
+		right: 0px;
+		width: 200px;
+		height: 90px;
+		border: 3px solid blue;
+	}
+	
+</style>
+</head>
+
+<body>
+		<h1>
+			Static position
+		</h1>
+		
+		<div class="test1">
+			Relative position
+			<div class="test3">
+				Absolute position
+			</div>
+		</div>
+		
+		<div class="test2">
+			Fixed position
+				
+
+		
+		</div>
